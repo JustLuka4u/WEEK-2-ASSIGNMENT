@@ -1,0 +1,32 @@
+
+
+table{
+    margin: auto;
+    width: 35%;
+}
+
+table ,th, td{
+    border: 1px solid black;
+  border-collapse: collapse;
+  padding:10px 15px ;
+  text-align: start;
+}
+caption{
+    margin-top: 25px;
+    margin-bottom:20px ;
+    font-family: 'Merienda', cursive;
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+
+thead{
+    font-family: 'Merienda', cursive;
+    font-weight: 700;
+    font-size: larger;
+}
+tbody{
+    font-family: 'Merienda', cursive;
+    font-weight: 400;
+    font-size: bold;
+}
+
