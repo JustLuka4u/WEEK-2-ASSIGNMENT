@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F5F5F5;
+}
+
+.container {
+    border: 2px solid white;
+    background: #FFFFFF;
+    margin: 78px auto;
+    align-items: center;
+    justify-content: center;
+    margin: 78px auto;
+    width: 800px;
+}
+
+.container h1 {
+    margin: 25px 0;
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+    color: #000000;
+    margin-left: 120px;
+}
+
+
+.form-div {
+    display: flex;
+    justify-content: start;
+    margin-bottom: 35px;
+    margin-left: 120px;
+}
+
+.form-div label {
+    font-family: 'Halant';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    color: #000000;
+    width: 220px;
+}
+
+.form-div input {
+    padding: 10px 120px 10px 5px;
+    font-size: 16px;
+    color: #797979;
+}
+
+select {
+    padding: 10px 50px 10px 5px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #797979;
+}
+
+.skils-div{
+    margin-right: 24px;
+    gap: 10px;
+    font-family: 'Manrope', sans-serif;
+    font-size: 500;
+}
+
+.label-div{
+font-family: 'Manrope';
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+color: #000000;
+
+}
+
+.gender-div{
+    margin-right: 24px;
+}
+
+.btn {
+    padding: 16px 140px;
+    background-color: #155EEF;
+    border-radius: 4px;
+    border: none;
+    margin-bottom: 20px;
+    margin-left: 340px;
+    color: #FFFFFF;
+    font-family: 'Manrope', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}

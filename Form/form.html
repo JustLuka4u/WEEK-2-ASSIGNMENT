@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Html Form</title>
+</head>
+
+<body>
+    <div class="container">
+        <form action="">
+            <h1>Contact Form</h1>
+            <div class="form-div">
+                <label for="Name">Name:</label>
+                <input type="text" name="name" id="Name" placeholder="Enter your Name" required>
+            </div>
+            <div class="form-div">
+                <label for="Name">Username:</label>
+                <input type="text" name="name" id="Name" placeholder="Enter your Username" required>
+            </div>
+            <div class="form-div">
+                <label for="password">Password:</label>
+                <input type="password" name="password" id="password" placeholder="Enter your Password"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+
+            </div>
+            <div class="form-div">
+                <label for="retype-password">Re-type Password:</label>
+                <input type="password" name="retype-password" id="retype-password" placeholder="Enter your Password"
+                    pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+            </div>
+            <div class="form-div">
+                <label for="gender">Gender:</label>
+
+                <div class="gender-div"> <label><input type="radio" name="gender" id="gender" required> Male</label>
+                </div>
+                <div> <label><input type="radio" name="gender" id="gender" required> Female</label></div>
+
+            </div>
+            <div class="form-div">
+                <label for="name">Techie Skills::</label>
+                <div class="skils-div"><label class="label-div" for="name"><input type="checkbox" name="text" required> HTML</div>
+                <div class="skils-div"><label for="name"><input type="checkbox" name="text" required> CSS</div>
+                <div class="skils-div"><label for="name"><input type="checkbox" name="text" required> JavaScript</div>
+
+            </div>
+            <div class="form-div">
+                <label for="number">Phone Number:</label>
+                <input type="tel" name="number" id="number" placeholder="Enter your number" required>
+
+            </div>
+            <div class="form-div">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+
+            </div>
+            <div class="form-div">
+                <label for="college"> College:</label>
+                <div>
+                    <select name="college" id="" required>
+                        <option value="">Select a college</option>
+                        <option value="Adekunle Ajasin University">Adekunle Ajasin University</option>
+                        <option value="OAU-Obafemi Awolowo University">OAU-Obafemi Awolowo University</option>
+                        <option value="UL-University of Lagos">UL-University of Lagos</option>
+                        <option value="ESU-Ekiti State University">ESU-Ekiti State University</option>
+                    </select>
+                </div>
+            </div>
+            <button type="submit" class="btn" >submit</button>
+        </form>
+            
+    </div>
+</body>
+
+</html>
