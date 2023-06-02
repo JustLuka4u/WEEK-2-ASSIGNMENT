@@ -64,7 +64,8 @@ select {
     margin-right: 24px;
     gap: 10px;
     font-family: 'Manrope', sans-serif;
-    font-size: 500;
+    font-size: normal;
+    font-weight: 500;
 }
 
 .label-div{
@@ -85,7 +86,7 @@ color: #000000;
     background-color: #155EEF;
     border-radius: 4px;
     border: none;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     margin-left: 340px;
     color: #FFFFFF;
     font-family: 'Manrope', sans-serif;
